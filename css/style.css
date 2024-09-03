@@ -79,34 +79,24 @@ header {
     margin-top: 60px;
 }
 
-/* Adiciona padding extra na seção com id "formacao" */
+/* Adiciona um espaçamento interno na seção "formacao" */
 #formacao {
     padding: 0 5rem;
 }
 
-/* Adiciona margem nos itens da lista dentro da seção "formacao" */
+/* Adiciona margem nos itens da lista na seção "formacao" */
 #formacao li {
     margin-top: 1rem;
 }
 
-/* Estiliza a imagem do GitHub */
+/* Estilizando a imagem do GitHub */
 #img-git {
     height: 20rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
-/* Estilo das imagens com classe "fundo" */
-.fundo {
-    display: block;
-    margin: 20px auto;
-    width: 50%;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona sombra para profundidade */
-}
-
-/* Centraliza o texto e ajusta margens para títulos e parágrafos */
+/* Centraliza o texto e ajusta as margens para títulos e parágrafos */
 h1, h2, h3, p {
     text-align: center;
     margin: 20px 0;
@@ -162,12 +152,12 @@ input[type="submit"]:hover {
     background-color: #555; /* Muda a cor de fundo ao passar o mouse */
 }
 
-/* Adiciona padding nas informações de contato */
+/* Adiciona um espaçamento interno nas informações de contato */
 .contato-info {
     padding: 0 12rem;
 }
 
-/* Estilo dos botões com classe "botao-form" */
+/* Estilo do botão */
 .botao-form {
     margin-bottom: 3rem;
     color: #fff;
@@ -229,9 +219,6 @@ footer img:hover {
         margin: 10px 0;
     }
 
-    .fundo {
-        width: 70%;
-    }
 }
 
 /* Ajustes para dispositivos com largura máxima de 480px */
@@ -245,7 +232,4 @@ footer img:hover {
         font-size: 14px;
     }
 
-    .fundo {
-        width: 90%;
-    }
 }
