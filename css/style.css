@@ -9,7 +9,7 @@ body {
     color: #fff;
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    padding-bottom: 10rem;
+    padding-bottom: 0;
 }
 
 
@@ -24,6 +24,11 @@ section:hover {
 border-color: #00eeff;
 transform: scale(1.01);
 }
+
+#sobre {
+    padding: 0 3rem;
+}
+
 .nav {
     width: 100%;
     background-color: #333;
@@ -34,7 +39,10 @@ transform: scale(1.01);
     z-index: 1000;
 }
 
-ul {
+
+
+
+.topnav {
     display: flex;
     justify-content: center;
     padding: 0;
@@ -42,11 +50,12 @@ ul {
     list-style: none;
 }
 
-li {
+.topnav li {
     margin: 0 15px;
 }
 
-li a {
+
+.topnav li a {
     color: white;
     background-color: #333;
     padding: 10px 20px;
@@ -55,7 +64,7 @@ li a {
     font-size: 16px;
 }
 
-li a:hover {
+.topnav li a:hover {
     background-color: #00eeff;
     color: #333;
     transition: background-color 0.3s, color 0.3s;
@@ -66,6 +75,21 @@ header {
     text-align: center;
     margin-top: 60px; /* Espaço para a navbar fixa */
 }
+
+#formacao {
+    padding: 0 5rem;
+}
+
+#formacao li {
+    margin-top: 1rem;
+}
+
+#img-git {
+    height: 20rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
 
 .fundo {
     display: block;
@@ -157,7 +181,7 @@ footer {
     padding: 15px;
     background-color: #333;
     color: white;
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
     box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
